@@ -34,7 +34,7 @@ kotlin {
             baseName = "shared"
             isStatic = true
         }
-        pod("AppsFlyerFramework")
+//        pod("AppsFlyerFramework")
     }
     
     sourceSets {
