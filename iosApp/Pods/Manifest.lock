@@ -2,8 +2,7 @@ PODS:
   - AppsFlyerFramework (6.17.0):
     - AppsFlyerFramework/Main (= 6.17.0)
   - AppsFlyerFramework/Main (6.17.0)
-  - shared (1.0):
-    - AppsFlyerFramework (= 6.17.0)
+  - shared (1.0)
 
 DEPENDENCIES:
   - AppsFlyerFramework (= 6.17.0)
@@ -19,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppsFlyerFramework: 34cef9f9653f4fd01c27d4d87784425b9271f82f
-  shared: d1dc4d8a9b2ca359b7d33a3a03d49f6c89b1ce20
+  shared: 96c066cfd2b0eab0963c51fee6cb6673e8cbba1a
 
 PODFILE CHECKSUM: 91254111048e6be3ed25e7226b12a27586235c52
 

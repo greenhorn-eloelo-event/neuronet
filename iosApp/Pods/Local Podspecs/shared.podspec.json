@@ -8,22 +8,17 @@
   "authors": "",
   "license": "",
   "summary": "Some description for the Shared Module",
-  "vendored_frameworks": "build/cocoapods/framework/AppsFlyerFramework.framework",
+  "vendored_frameworks": "build/cocoapods/framework/shared.framework",
   "libraries": "c++",
   "platforms": {
     "ios": "16.0"
-  },
-  "dependencies": {
-    "AppsFlyerFramework": [
-      "6.17.0"
-    ]
   },
   "xcconfig": {
     "ENABLE_USER_SCRIPT_SANDBOXING": "NO"
   },
   "pod_target_xcconfig": {
     "KOTLIN_PROJECT_PATH": ":shared",
-    "PRODUCT_MODULE_NAME": "AppsFlyerFramework"
+    "PRODUCT_MODULE_NAME": "shared"
   },
   "script_phases": [
     {

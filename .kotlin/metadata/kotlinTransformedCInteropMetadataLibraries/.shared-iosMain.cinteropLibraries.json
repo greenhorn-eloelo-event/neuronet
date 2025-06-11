@@ -15,11 +15,6 @@
     "sourceSetName": "nativeMain"
   },
   {
-    "moduleId": "co.touchlab:sqliter-driver:1.3.3",
-    "file": "/Users/eloelo/AndroidStudioProjects/Analytics/.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/co.touchlab-sqliter-driver-1.3.3-appleMain-cinterop/co.touchlab_sqliter-driver-cinterop-sqlite3-pnpooQ.klib",
-    "sourceSetName": "appleMain"
-  },
-  {
     "moduleId": "io.ktor:ktor-utils:3.1.3",
     "file": "/Users/eloelo/AndroidStudioProjects/Analytics/.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/io.ktor-ktor-utils-3.1.3-iosMain-cinterop/io.ktor_ktor-utils-cinterop-threadUtils-n61uLw.klib",
     "sourceSetName": "iosMain"

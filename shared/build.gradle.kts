@@ -1,8 +1,11 @@
+import org.gradle.kotlin.dsl.commonMain
+import org.gradle.kotlin.dsl.commonTest
+import org.gradle.kotlin.dsl.dependencies
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
-//    alias(libs.plugins.kotlinCocoapods)
+    alias(libs.plugins.kotlinCocoapods)
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.ksp)
     alias(libs.plugins.room)
@@ -13,6 +16,7 @@ plugins {
 
 kotlin {
     androidTarget {
+        version = "1.0"
         compilations.all {
             compileTaskProvider.configure {
                 compilerOptions {
@@ -34,16 +38,16 @@ kotlin {
     }
 
 
-//    cocoapods {
-//        summary = "Some description for the Shared Module"
-//        homepage = "Link to the Shared Module homepage"
-//        version = "1.0"
-//        ios.deploymentTarget = "16.0"
-//        podfile = project.file("../iosApp/Podfile")
-//        framework {
-//            baseName = "shared"
-//            isStatic = true
-//        }
+    cocoapods {
+        summary = "Some description for the Shared Module"
+        homepage = "Link to the Shared Module homepage"
+        version = "1.0"
+        ios.deploymentTarget = "16.0"
+        podfile = project.file("../iosApp/Podfile")
+        framework {
+            baseName = "shared"
+            isStatic = true
+        }
 //        pod("AppsFlyerFramework"){
 //            version = libs.versions.pod.appsflyer.get()
 //            framework {
@@ -51,7 +55,7 @@ kotlin {
 //                isStatic = true
 //            }
 //        }
-//    }
+    }
     
     sourceSets {
         iosMain.dependencies {
